@@ -1,0 +1,77 @@
+.add-container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.btn {
+    color: white;
+    background:  #f3876a;
+    min-width: 500px;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+.input-field {
+  min-width: 550px;
+  min-height: 7vh;
+  font-size: 18px;
+  background: rgba(255, 255, 255, 0.719);
+  border: none;
+  padding: 10px;
+  outline: none;
+}
+.task-list {
+    display: flex;
+    flex-direction: column;
+    min-width: 40%;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.list-item{
+    list-style: none;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    background: rgba(255, 222, 200, 0);
+    border-bottom: 2px solid rgb(190, 189, 190);
+    margin-top: 10px;
+}
+
+.text-field {
+    flex: 1;
+    height: 6vh;
+}
+
+.checkbox {
+    padding: 5px;
+}
+
+.edit-input {
+    width: 100%;
+    background:rgba(255, 222, 200, 0);
+    color: rgb(46, 26, 26);
+    margin-left: 5px;
+    cursor: text;
+    outline: none;
+    font-size: 20px;
+    font-family:  monaco, Consolas, "Lucida Console", monospace;
+    padding: 1px;
+    border: none;
+}
+
+button {
+    background: #ff6f4700;
+    color: rgb(46, 26, 26);
+    border: none;
+    cursor: pointer;
+    min-width: 10%;
+    transition: all 0.5s ease;
+}
+button:hover {
+    background: #f3876a;
+} 
